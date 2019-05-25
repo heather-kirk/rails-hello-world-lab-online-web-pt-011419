@@ -1,6 +1,6 @@
 class StaticController < ApplicationController
   
-  get 'hello_world', to 
+  get 'hello_world', to: "static"
   
   def about
   end 
